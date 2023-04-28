@@ -59,15 +59,16 @@ namespace Lomey_1
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             pictureBox4.Image = Properties.Resources.sound_off;
-            background_music.Stop();
+            // background_music.Stop();
         }
 
         private void login_Load(object sender, EventArgs e)
         {
             pictureBox4.Image = Properties.Resources.sound_on;
+            /*
             background_music.SoundLocation = "ChillNoons.wav";
             background_music.PlayLooping();
-           
+           */
         }
     }
 }

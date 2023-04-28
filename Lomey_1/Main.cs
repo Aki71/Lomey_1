@@ -45,5 +45,12 @@ namespace Lomey_1
                 label1.Text = Convert.ToString(a);
             }
         }
+
+        private void im(object sender, EventArgs e)
+        {
+            Form Memory = new Memory();
+            Memory.Show();
+            this.Hide();
+        }
     }
 }
