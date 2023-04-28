@@ -17,9 +17,9 @@ namespace Lomey_1
             InitializeComponent();
         }
 
-        private void triputatri(object sender, EventArgs e)
+        private void trixtri(object sender, MouseEventArgs e)
         {
-            
+            memory3x31.Show();
         }
     }
 }

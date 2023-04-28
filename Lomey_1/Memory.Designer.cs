@@ -30,29 +30,30 @@ namespace Lomey_1
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Memory));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.triputatri = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.memory3x31 = new Lomey_1.Memory3x3();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.triputatri)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // triputatri
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Lomey_1.Properties.Resources.Memory_logo_3x3;
-            this.pictureBox1.Location = new System.Drawing.Point(108, 125);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(155, 153);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.triputatri.BackColor = System.Drawing.Color.Transparent;
+            this.triputatri.Image = global::Lomey_1.Properties.Resources.Memory_logo_3x3;
+            this.triputatri.Location = new System.Drawing.Point(108, 125);
+            this.triputatri.Name = "triputatri";
+            this.triputatri.Size = new System.Drawing.Size(155, 153);
+            this.triputatri.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.triputatri.TabIndex = 0;
+            this.triputatri.TabStop = false;
+            this.triputatri.MouseClick += new System.Windows.Forms.MouseEventHandler(this.trixtri);
             // 
             // pictureBox2
             // 
@@ -80,7 +81,7 @@ namespace Lomey_1
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::Lomey_1.Properties.Resources.back;
-            this.pictureBox4.Location = new System.Drawing.Point(12, 351);
+            this.pictureBox4.Location = new System.Drawing.Point(12, 390);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(32, 30);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -91,7 +92,7 @@ namespace Lomey_1
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = global::Lomey_1.Properties.Resources.sound_on;
-            this.pictureBox5.Location = new System.Drawing.Point(793, 351);
+            this.pictureBox5.Location = new System.Drawing.Point(807, 390);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(33, 30);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -101,10 +102,11 @@ namespace Lomey_1
             // memory3x31
             // 
             this.memory3x31.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("memory3x31.BackgroundImage")));
-            this.memory3x31.Location = new System.Drawing.Point(1, -3);
+            this.memory3x31.Location = new System.Drawing.Point(-1, 0);
             this.memory3x31.Name = "memory3x31";
             this.memory3x31.Size = new System.Drawing.Size(854, 432);
             this.memory3x31.TabIndex = 6;
+            this.memory3x31.Visible = false;
             // 
             // Memory
             // 
@@ -112,16 +114,16 @@ namespace Lomey_1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Lomey_1.Properties.Resources.Background_4;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(838, 393);
+            this.ClientSize = new System.Drawing.Size(852, 432);
             this.Controls.Add(this.memory3x31);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.triputatri);
             this.Name = "Memory";
             this.Text = "Memory";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.triputatri)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -138,5 +140,6 @@ namespace Lomey_1
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private Memory3x3 memory3x31;
+        private System.Windows.Forms.PictureBox triputatri;
     }
 }
