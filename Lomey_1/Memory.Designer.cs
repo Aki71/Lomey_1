@@ -29,11 +29,13 @@ namespace Lomey_1
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Memory));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.memory3x31 = new Lomey_1.Memory3x3();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -96,6 +98,14 @@ namespace Lomey_1
             this.pictureBox5.TabIndex = 5;
             this.pictureBox5.TabStop = false;
             // 
+            // memory3x31
+            // 
+            this.memory3x31.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("memory3x31.BackgroundImage")));
+            this.memory3x31.Location = new System.Drawing.Point(1, -3);
+            this.memory3x31.Name = "memory3x31";
+            this.memory3x31.Size = new System.Drawing.Size(854, 432);
+            this.memory3x31.TabIndex = 6;
+            // 
             // Memory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -103,6 +113,7 @@ namespace Lomey_1
             this.BackgroundImage = global::Lomey_1.Properties.Resources.Background_4;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(838, 393);
+            this.Controls.Add(this.memory3x31);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -126,5 +137,6 @@ namespace Lomey_1
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private Memory3x3 memory3x31;
     }
 }

@@ -77,7 +77,6 @@ namespace Lomey_1
         {
             if (pombool == true)
             {
-                pombool = false;
                 foreach (Control n in Controls)
                     if (n is PictureBox)
                         if (Convert.ToString((n as PictureBox).Tag) != "u")
@@ -91,7 +90,7 @@ namespace Lomey_1
                             if (X1 == X2 && Y1 == Y2)
                                 if (Convert.ToString((n as PictureBox).Tag) == pomstring)
                                 {
-                                    upitnik1.Enabled = false;
+                                    upitnik2.Enabled = false;
                                 }
 
                             foreach (Control m in Controls)
@@ -101,6 +100,7 @@ namespace Lomey_1
                                         (m as PictureBox).Enabled = false;
                                     }
                         }
+                pombool = false;
             }
             else
             {

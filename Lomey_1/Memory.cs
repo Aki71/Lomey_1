@@ -19,9 +19,7 @@ namespace Lomey_1
 
         private void triputatri(object sender, EventArgs e)
         {
-            Form Memory3x3 = new Memory3x3();
-            Memory3x3.Show();
-            this.Hide();
+            
         }
     }
 }
