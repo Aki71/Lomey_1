@@ -142,6 +142,16 @@ namespace Lomey_1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap elephant {
+            get {
+                object obj = ResourceManager.GetObject("elephant", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fish {
             get {
                 object obj = ResourceManager.GetObject("fish", resourceCulture);
@@ -255,6 +265,16 @@ namespace Lomey_1.Properties {
         internal static System.Drawing.Bitmap monkey1 {
             get {
                 object obj = ResourceManager.GetObject("monkey1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap octopus {
+            get {
+                object obj = ResourceManager.GetObject("octopus", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
