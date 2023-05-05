@@ -46,7 +46,8 @@ namespace Lomey_1
             // triputatri
             // 
             this.triputatri.BackColor = System.Drawing.Color.Transparent;
-            this.triputatri.Image = global::Lomey_1.Properties.Resources.Memory_logo_3x3;
+            this.triputatri.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.triputatri.Image = global::Lomey_1.Properties.Resources.Memory_logo_3x4;
             this.triputatri.Location = new System.Drawing.Point(108, 125);
             this.triputatri.Name = "triputatri";
             this.triputatri.Size = new System.Drawing.Size(155, 153);
@@ -58,6 +59,7 @@ namespace Lomey_1
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::Lomey_1.Properties.Resources.Memory_logo_4x4;
             this.pictureBox2.Location = new System.Drawing.Point(334, 125);
             this.pictureBox2.Name = "pictureBox2";
@@ -69,7 +71,8 @@ namespace Lomey_1
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::Lomey_1.Properties.Resources.Memory_logo_5x5;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox3.Image = global::Lomey_1.Properties.Resources.Memory_logo_4x5;
             this.pictureBox3.Location = new System.Drawing.Point(576, 125);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(155, 153);
@@ -102,7 +105,7 @@ namespace Lomey_1
             // memory3x31
             // 
             this.memory3x31.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("memory3x31.BackgroundImage")));
-            this.memory3x31.Location = new System.Drawing.Point(-1, 0);
+            this.memory3x31.Location = new System.Drawing.Point(0, 0);
             this.memory3x31.Name = "memory3x31";
             this.memory3x31.Size = new System.Drawing.Size(854, 432);
             this.memory3x31.TabIndex = 6;

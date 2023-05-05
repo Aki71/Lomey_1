@@ -16,10 +16,9 @@ namespace Lomey_1
         {
             InitializeComponent();
         }
-
         private void loto_game_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -32,6 +31,19 @@ namespace Lomey_1
         private void loto_game_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+        string[] dobitni_brojevi = new string[10];
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Random brojevi = new Random();
+            for(int i = 0; i< 7; i++)
+            {
+                dobitni_brojevi[i] = Convert.ToString(brojevi.Next(1,39));
+                textBox1.Text += " " +  dobitni_brojevi[i];
+                
+            }
+            pictureBox1.Image = Image.FromFile("");
+
         }
     }
 }

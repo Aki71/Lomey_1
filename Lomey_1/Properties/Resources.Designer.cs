@@ -242,9 +242,29 @@ namespace Lomey_1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Memory_logo_3x4 {
+            get {
+                object obj = ResourceManager.GetObject("Memory_logo_3x4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Memory_logo_4x4 {
             get {
                 object obj = ResourceManager.GetObject("Memory_logo_4x4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Memory_logo_4x5 {
+            get {
+                object obj = ResourceManager.GetObject("Memory_logo_4x5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

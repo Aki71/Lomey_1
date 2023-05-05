@@ -526,6 +526,7 @@ namespace Lomey_1
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Lomey_1.Properties.Resources.background_2;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.upitnik16);
             this.Controls.Add(this.upitnik15);
             this.Controls.Add(this.upitnik14);
