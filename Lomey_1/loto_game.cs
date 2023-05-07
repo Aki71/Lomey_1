@@ -42,7 +42,7 @@ namespace Lomey_1
                 textBox1.Text += " " +  dobitni_brojevi[i];
                 
             }
-            pictureBox1.Image = Image.FromFile("");
+            pictureBox1.ImageLocation = "";
 
         }
     }
