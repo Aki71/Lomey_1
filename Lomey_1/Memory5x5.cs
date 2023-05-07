@@ -1149,5 +1149,17 @@ namespace Lomey_1
                         }
             }
         }
+
+        private void pictureBox4_MouseClick(object sender, MouseEventArgs e)
+        {
+            foreach (Control n in Controls)
+                if (n is PictureBox)
+                    if (Convert.ToString((n as PictureBox).Tag) == "u")
+                    {
+                        (n as PictureBox).Show();
+                        (n as PictureBox).Enabled = true;
+                    }
+            this.Hide();
+        }
     }
 }

@@ -26,28 +26,28 @@ namespace Lomey_1
         //user : U4 pass:u4
         private void button1_Click(object sender, EventArgs e)
         {
-            if(login_pass.Text == "u1" && login_user.Text == "U1")
+            if (login_pass.Text == "u1" && login_user.Text == "U1")
             {
                 Form Main = new Main();
                 Main.Show();
                 background_music.Stop();
                 this.Hide();
             }
-            if(login_pass.Text == "u2" && login_user.Text == "U2")
+            if (login_pass.Text == "u2" && login_user.Text == "U2")
             {
                 Form Main = new Main();
                 Main.Show();
                 background_music.Stop();
                 this.Hide();
             }
-            if(login_pass.Text == "u3" && login_user.Text == "U3")
+            if (login_pass.Text == "u3" && login_user.Text == "U3")
             {
                 Form Main = new Main();
                 Main.Show();
                 background_music.Stop();
                 this.Hide();
             }
-            if(login_pass.Text == "u4" && login_user.Text == "U4")
+            if (login_pass.Text == "u4" && login_user.Text == "U4")
             {
                 Form Main = new Main();
                 Main.Show();
@@ -69,6 +69,60 @@ namespace Lomey_1
             background_music.SoundLocation = "ChillNoons.wav";
             background_music.PlayLooping();
            */
+        }
+
+        private void login_user_Enter(object sender, EventArgs e)
+        {
+        }
+
+        private void login_pass_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void login_pass_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (login_pass.Text == "u1" && login_user.Text == "U1")
+                {
+                    Form Main = new Main();
+                    Main.Show();
+                    background_music.Stop();
+                    this.Hide();
+                }
+                if (login_pass.Text == "u2" && login_user.Text == "U2")
+                {
+                    Form Main = new Main();
+                    Main.Show();
+                    background_music.Stop();
+                    this.Hide();
+                }
+                if (login_pass.Text == "u3" && login_user.Text == "U3")
+                {
+                    Form Main = new Main();
+                    Main.Show();
+                    background_music.Stop();
+                    this.Hide();
+                }
+                if (login_pass.Text == "u4" && login_user.Text == "U4")
+                {
+                    Form Main = new Main();
+                    Main.Show();
+                    background_music.Stop();
+                    this.Hide();
+                }
+                else
+                {
+                    login_user.Text = "";
+                    login_pass.Text = "";
+                }
+            }
+        }
+
+        private void login_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -21,5 +21,25 @@ namespace Lomey_1
         {
             memory3x31.Show();
         }
+
+        private void Memory_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            memory4x41.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            memory5x51.Show();
+        }
+
+        private void Memory_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
