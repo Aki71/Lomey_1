@@ -39,10 +39,12 @@ namespace Lomey_1
             for(int i = 0; i< 7; i++)
             {
                 dobitni_brojevi[i] = Convert.ToString(brojevi.Next(1,39));
+                if (dobitni_brojevi[i] == "1")
+                    pictureBox1.ImageLocation = "Resources/one.png";
                 textBox1.Text += " " +  dobitni_brojevi[i];
                 
             }
-            pictureBox1.ImageLocation = "";
+            
 
         }
     }
