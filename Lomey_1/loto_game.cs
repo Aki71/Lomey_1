@@ -22,7 +22,7 @@ namespace Lomey_1
             StreamWriter spisak_dobitnih_brojeva = new StreamWriter("spisak_dobitinih_brojeva.txt", true);
             for (int i = 0; i < 7; i++)
             {
-                spisak_dobitnih_brojeva.Write(i+1+"." + dobitni_brojevi[i]+" ");
+                spisak_dobitnih_brojeva.Write(dobitni_brojevi[i]);
                 if (i == 6)
                 {
                     spisak_dobitnih_brojeva.WriteLine();
@@ -42,6 +42,9 @@ namespace Lomey_1
             label6.Text = "";
             label7.Text = "";
             label8.Text = "";
+            StreamReader ispis = new StreamReader("spisak_dobitinih_brojeva.txt");
+            listBox1.Items.Add(ispis);
+            ispis.Close();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -199,6 +202,7 @@ namespace Lomey_1
                             {
                                 label8.Text = Convert.ToString(dobitni_brojevi[i]);
                             }
+                            unos();
                         }
                     }
                 }
