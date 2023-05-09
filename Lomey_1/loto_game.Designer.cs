@@ -29,6 +29,7 @@ namespace Lomey_1
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -49,6 +50,7 @@ namespace Lomey_1
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
@@ -255,6 +257,12 @@ namespace Lomey_1
             this.textBox7.Size = new System.Drawing.Size(24, 23);
             this.textBox7.TabIndex = 29;
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // loto_game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -314,5 +322,6 @@ namespace Lomey_1
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Timer timer1;
     }
 }

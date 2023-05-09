@@ -22,7 +22,7 @@ namespace Lomey_1
             StreamWriter spisak_dobitnih_brojeva = new StreamWriter("spisak_dobitinih_brojeva.txt", true);
             for (int i = 0; i < 7; i++)
             {
-                spisak_dobitnih_brojeva.Write(dobitni_brojevi[i]);
+                spisak_dobitnih_brojeva.Write(dobitni_brojevi[i] + " ");
                 if (i == 6)
                 {
                     spisak_dobitnih_brojeva.WriteLine();
@@ -42,9 +42,7 @@ namespace Lomey_1
             label6.Text = "";
             label7.Text = "";
             label8.Text = "";
-            StreamReader ispis = new StreamReader("spisak_dobitinih_brojeva.txt");
-            listBox1.Items.Add(ispis);
-            ispis.Close();
+            
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -115,6 +113,7 @@ namespace Lomey_1
                     
                 }  
             }
+            unos();
         }
         int broj1 = 0;
         int broj2 = 0;
@@ -202,13 +201,32 @@ namespace Lomey_1
                             {
                                 label8.Text = Convert.ToString(dobitni_brojevi[i]);
                             }
-                            unos();
+
+                            int tacan_1 = Convert.ToInt32(label2.Text);
+                            bool tacno = false;
+                            if(tacan_1 == broj1 || tacan_1 == broj2 || tacan_1 == broj3 || tacan_1 == broj4 || tacan_1 == broj5 || tacan_1 == broj6 || tacan_1 == broj7)
+                            {
+                                tacno = true;
+                                listBox1.Items.Add(tacan_1);
+                            }
                         }
                     }
                 }
 
                 
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            StreamReader ispis = new StreamReader("spisak_dobitinih_brojeva.txt");
+            while (!ispis.EndOfStream)
+            {
+                string red = ispis.ReadLine();
+                listBox1.Items.Add(red);
+            }
+            ispis.Close();
         }
     }
 }
