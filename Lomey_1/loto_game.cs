@@ -204,11 +204,17 @@ namespace Lomey_1
                             }
 
                             int tacan_1 = Convert.ToInt32(label2.Text);
+                            int tacan_2 = Convert.ToInt32(label3.Text);
+                            int tacan_3 = Convert.ToInt32(label4.Text);
+                            int tacan_4 = Convert.ToInt32(label5.Text);
+                            int tacan_5 = Convert.ToInt32(label6.Text);
+                            int tacan_6 = Convert.ToInt32(label7.Text);
+                            int tacan_7 = Convert.ToInt32(label8.Text);
                             bool tacno = false;
-                            if(tacan_1 == broj1 || tacan_1 == broj2 || tacan_1 == broj3 || tacan_1 == broj4 || tacan_1 == broj5 || tacan_1 == broj6 || tacan_1 == broj7)
+                            if(tacan_1 == broj1 || tacan_1 == broj2 || tacan_1 == broj3 || tacan_1 == broj4 || tacan_1 == broj5 || tacan_1 == broj6 || tacan_1 == broj7 && tacan_2 == broj1 || tacan_2 == broj2 || tacan_2 == broj3 || tacan_2 == broj4 || tacan_2 == broj5 || tacan_2 == broj6 || tacan_2 == broj7 && tacan_3 == broj1 || tacan_3 == broj2 || tacan_3 == broj3 || tacan_3 == broj4 || tacan_3 == broj5 || tacan_3 == broj6 || tacan_3 == broj7 && tacan_4 == broj1 || tacan_4 == broj2 || tacan_4 == broj3 || tacan_4 == broj4 || tacan_4 == broj5 || tacan_4 == broj6 || tacan_4 == broj7 && tacan_5 == broj1 || tacan_5 == broj2 || tacan_5 == broj3 || tacan_5 == broj4 || tacan_5 == broj5 || tacan_5 == broj6 || tacan_5 == broj7 && tacan_6 == broj1 || tacan_6 == broj2 || tacan_6 == broj3 || tacan_6 == broj4 || tacan_6 == broj5 || tacan_6 == broj6 || tacan_6 == broj7 && tacan_7 == broj1 || tacan_7 == broj2 || tacan_7 == broj3 || tacan_7 == broj4 || tacan_7 == broj5 || tacan_7 == broj6 || tacan_7 == broj7)
                             {
                                 tacno = true;
-                                listBox1.Items.Add(tacan_1);
+                                MessageBox.Show("Pobeda!!!");
                             }
                         }
                     }
@@ -228,6 +234,76 @@ namespace Lomey_1
                 listBox1.Items.Add(red);
             }
             ispis.Close();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

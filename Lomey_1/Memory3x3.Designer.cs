@@ -87,10 +87,9 @@ namespace Lomey_1
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = global::Lomey_1.Properties.Resources.sound_on;
-            this.pictureBox5.Location = new System.Drawing.Point(1153, 648);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox5.Location = new System.Drawing.Point(807, 389);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(47, 50);
+            this.pictureBox5.Size = new System.Drawing.Size(33, 30);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 7;
             this.pictureBox5.TabStop = false;
@@ -99,23 +98,22 @@ namespace Lomey_1
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Image = global::Lomey_1.Properties.Resources.back;
-            this.pictureBox4.Location = new System.Drawing.Point(19, 648);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox4.Location = new System.Drawing.Point(13, 389);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(46, 50);
+            this.pictureBox4.Size = new System.Drawing.Size(32, 30);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 6;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             this.pictureBox4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.nazad);
             // 
             // lav1
             // 
             this.lav1.BackColor = System.Drawing.Color.Transparent;
             this.lav1.Image = global::Lomey_1.Properties.Resources.lion;
-            this.lav1.Location = new System.Drawing.Point(316, 133);
-            this.lav1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.lav1.Location = new System.Drawing.Point(206, 78);
             this.lav1.Name = "lav1";
-            this.lav1.Size = new System.Drawing.Size(126, 147);
+            this.lav1.Size = new System.Drawing.Size(88, 88);
             this.lav1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.lav1.TabIndex = 8;
             this.lav1.TabStop = false;
@@ -125,10 +123,9 @@ namespace Lomey_1
             // 
             this.lav2.BackColor = System.Drawing.Color.Transparent;
             this.lav2.Image = global::Lomey_1.Properties.Resources.lion;
-            this.lav2.Location = new System.Drawing.Point(493, 133);
-            this.lav2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.lav2.Location = new System.Drawing.Point(330, 78);
             this.lav2.Name = "lav2";
-            this.lav2.Size = new System.Drawing.Size(126, 147);
+            this.lav2.Size = new System.Drawing.Size(88, 88);
             this.lav2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.lav2.TabIndex = 9;
             this.lav2.TabStop = false;
@@ -138,10 +135,9 @@ namespace Lomey_1
             // 
             this.majmun1.BackColor = System.Drawing.Color.Transparent;
             this.majmun1.Image = global::Lomey_1.Properties.Resources.monkey;
-            this.majmun1.Location = new System.Drawing.Point(661, 133);
-            this.majmun1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.majmun1.Location = new System.Drawing.Point(448, 78);
             this.majmun1.Name = "majmun1";
-            this.majmun1.Size = new System.Drawing.Size(126, 147);
+            this.majmun1.Size = new System.Drawing.Size(88, 88);
             this.majmun1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.majmun1.TabIndex = 10;
             this.majmun1.TabStop = false;
@@ -151,10 +147,9 @@ namespace Lomey_1
             // 
             this.majmun2.BackColor = System.Drawing.Color.Transparent;
             this.majmun2.Image = global::Lomey_1.Properties.Resources.monkey1;
-            this.majmun2.Location = new System.Drawing.Point(316, 310);
-            this.majmun2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.majmun2.Location = new System.Drawing.Point(206, 184);
             this.majmun2.Name = "majmun2";
-            this.majmun2.Size = new System.Drawing.Size(126, 147);
+            this.majmun2.Size = new System.Drawing.Size(88, 88);
             this.majmun2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.majmun2.TabIndex = 11;
             this.majmun2.TabStop = false;
@@ -164,10 +159,9 @@ namespace Lomey_1
             // 
             this.riba1.BackColor = System.Drawing.Color.Transparent;
             this.riba1.Image = global::Lomey_1.Properties.Resources.fish;
-            this.riba1.Location = new System.Drawing.Point(493, 310);
-            this.riba1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.riba1.Location = new System.Drawing.Point(330, 184);
             this.riba1.Name = "riba1";
-            this.riba1.Size = new System.Drawing.Size(126, 147);
+            this.riba1.Size = new System.Drawing.Size(88, 88);
             this.riba1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.riba1.TabIndex = 12;
             this.riba1.TabStop = false;
@@ -177,10 +171,9 @@ namespace Lomey_1
             // 
             this.riba2.BackColor = System.Drawing.Color.Transparent;
             this.riba2.Image = global::Lomey_1.Properties.Resources.fish;
-            this.riba2.Location = new System.Drawing.Point(661, 310);
-            this.riba2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.riba2.Location = new System.Drawing.Point(448, 184);
             this.riba2.Name = "riba2";
-            this.riba2.Size = new System.Drawing.Size(126, 147);
+            this.riba2.Size = new System.Drawing.Size(88, 88);
             this.riba2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.riba2.TabIndex = 13;
             this.riba2.TabStop = false;
@@ -190,10 +183,9 @@ namespace Lomey_1
             // 
             this.vrat1.BackColor = System.Drawing.Color.Transparent;
             this.vrat1.Image = global::Lomey_1.Properties.Resources.giraffe;
-            this.vrat1.Location = new System.Drawing.Point(316, 488);
-            this.vrat1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.vrat1.Location = new System.Drawing.Point(206, 291);
             this.vrat1.Name = "vrat1";
-            this.vrat1.Size = new System.Drawing.Size(126, 147);
+            this.vrat1.Size = new System.Drawing.Size(88, 88);
             this.vrat1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.vrat1.TabIndex = 14;
             this.vrat1.TabStop = false;
@@ -203,10 +195,9 @@ namespace Lomey_1
             // 
             this.vrat2.BackColor = System.Drawing.Color.Transparent;
             this.vrat2.Image = global::Lomey_1.Properties.Resources.giraffe;
-            this.vrat2.Location = new System.Drawing.Point(493, 488);
-            this.vrat2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.vrat2.Location = new System.Drawing.Point(330, 291);
             this.vrat2.Name = "vrat2";
-            this.vrat2.Size = new System.Drawing.Size(126, 147);
+            this.vrat2.Size = new System.Drawing.Size(88, 88);
             this.vrat2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.vrat2.TabIndex = 15;
             this.vrat2.TabStop = false;
@@ -216,10 +207,9 @@ namespace Lomey_1
             // 
             this.tigar2.BackColor = System.Drawing.Color.Transparent;
             this.tigar2.Image = global::Lomey_1.Properties.Resources.tiger;
-            this.tigar2.Location = new System.Drawing.Point(661, 488);
-            this.tigar2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tigar2.Location = new System.Drawing.Point(448, 291);
             this.tigar2.Name = "tigar2";
-            this.tigar2.Size = new System.Drawing.Size(126, 147);
+            this.tigar2.Size = new System.Drawing.Size(88, 88);
             this.tigar2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.tigar2.TabIndex = 16;
             this.tigar2.TabStop = false;
@@ -229,10 +219,9 @@ namespace Lomey_1
             // 
             this.tigar1.BackColor = System.Drawing.Color.Transparent;
             this.tigar1.Image = global::Lomey_1.Properties.Resources.tiger;
-            this.tigar1.Location = new System.Drawing.Point(826, 133);
-            this.tigar1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.tigar1.Location = new System.Drawing.Point(563, 78);
             this.tigar1.Name = "tigar1";
-            this.tigar1.Size = new System.Drawing.Size(126, 147);
+            this.tigar1.Size = new System.Drawing.Size(88, 88);
             this.tigar1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.tigar1.TabIndex = 17;
             this.tigar1.TabStop = false;
@@ -242,10 +231,9 @@ namespace Lomey_1
             // 
             this.rudolf1.BackColor = System.Drawing.Color.Transparent;
             this.rudolf1.Image = global::Lomey_1.Properties.Resources.antelope;
-            this.rudolf1.Location = new System.Drawing.Point(826, 310);
-            this.rudolf1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.rudolf1.Location = new System.Drawing.Point(563, 184);
             this.rudolf1.Name = "rudolf1";
-            this.rudolf1.Size = new System.Drawing.Size(126, 147);
+            this.rudolf1.Size = new System.Drawing.Size(88, 88);
             this.rudolf1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.rudolf1.TabIndex = 18;
             this.rudolf1.TabStop = false;
@@ -255,10 +243,9 @@ namespace Lomey_1
             // 
             this.rudolf2.BackColor = System.Drawing.Color.Transparent;
             this.rudolf2.Image = global::Lomey_1.Properties.Resources.antelope;
-            this.rudolf2.Location = new System.Drawing.Point(826, 488);
-            this.rudolf2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.rudolf2.Location = new System.Drawing.Point(563, 291);
             this.rudolf2.Name = "rudolf2";
-            this.rudolf2.Size = new System.Drawing.Size(126, 147);
+            this.rudolf2.Size = new System.Drawing.Size(88, 88);
             this.rudolf2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.rudolf2.TabIndex = 19;
             this.rudolf2.TabStop = false;
@@ -266,12 +253,11 @@ namespace Lomey_1
             // 
             // upitnik1
             // 
-            this.upitnik1.BackColor = System.Drawing.Color.LightGreen;
+            this.upitnik1.BackColor = System.Drawing.Color.Transparent;
             this.upitnik1.Image = global::Lomey_1.Properties.Resources.question_mark;
-            this.upitnik1.Location = new System.Drawing.Point(316, 133);
-            this.upitnik1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.upitnik1.Location = new System.Drawing.Point(206, 78);
             this.upitnik1.Name = "upitnik1";
-            this.upitnik1.Size = new System.Drawing.Size(126, 147);
+            this.upitnik1.Size = new System.Drawing.Size(88, 88);
             this.upitnik1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.upitnik1.TabIndex = 20;
             this.upitnik1.TabStop = false;
@@ -280,12 +266,11 @@ namespace Lomey_1
             // 
             // upitnik3
             // 
-            this.upitnik3.BackColor = System.Drawing.Color.LightGreen;
+            this.upitnik3.BackColor = System.Drawing.Color.Transparent;
             this.upitnik3.Image = global::Lomey_1.Properties.Resources.question_mark;
-            this.upitnik3.Location = new System.Drawing.Point(661, 133);
-            this.upitnik3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.upitnik3.Location = new System.Drawing.Point(448, 78);
             this.upitnik3.Name = "upitnik3";
-            this.upitnik3.Size = new System.Drawing.Size(126, 147);
+            this.upitnik3.Size = new System.Drawing.Size(88, 88);
             this.upitnik3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.upitnik3.TabIndex = 21;
             this.upitnik3.TabStop = false;
@@ -294,12 +279,11 @@ namespace Lomey_1
             // 
             // upitnik2
             // 
-            this.upitnik2.BackColor = System.Drawing.Color.LightGreen;
+            this.upitnik2.BackColor = System.Drawing.Color.Transparent;
             this.upitnik2.Image = global::Lomey_1.Properties.Resources.question_mark;
-            this.upitnik2.Location = new System.Drawing.Point(493, 133);
-            this.upitnik2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.upitnik2.Location = new System.Drawing.Point(330, 78);
             this.upitnik2.Name = "upitnik2";
-            this.upitnik2.Size = new System.Drawing.Size(126, 147);
+            this.upitnik2.Size = new System.Drawing.Size(88, 88);
             this.upitnik2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.upitnik2.TabIndex = 21;
             this.upitnik2.TabStop = false;
@@ -308,12 +292,11 @@ namespace Lomey_1
             // 
             // upitnik4
             // 
-            this.upitnik4.BackColor = System.Drawing.Color.LightGreen;
+            this.upitnik4.BackColor = System.Drawing.Color.Transparent;
             this.upitnik4.Image = global::Lomey_1.Properties.Resources.question_mark;
-            this.upitnik4.Location = new System.Drawing.Point(826, 133);
-            this.upitnik4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.upitnik4.Location = new System.Drawing.Point(563, 78);
             this.upitnik4.Name = "upitnik4";
-            this.upitnik4.Size = new System.Drawing.Size(126, 147);
+            this.upitnik4.Size = new System.Drawing.Size(88, 88);
             this.upitnik4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.upitnik4.TabIndex = 22;
             this.upitnik4.TabStop = false;
@@ -322,12 +305,11 @@ namespace Lomey_1
             // 
             // upitnik5
             // 
-            this.upitnik5.BackColor = System.Drawing.Color.LightGreen;
+            this.upitnik5.BackColor = System.Drawing.Color.Transparent;
             this.upitnik5.Image = global::Lomey_1.Properties.Resources.question_mark;
-            this.upitnik5.Location = new System.Drawing.Point(316, 310);
-            this.upitnik5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.upitnik5.Location = new System.Drawing.Point(206, 184);
             this.upitnik5.Name = "upitnik5";
-            this.upitnik5.Size = new System.Drawing.Size(126, 147);
+            this.upitnik5.Size = new System.Drawing.Size(88, 88);
             this.upitnik5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.upitnik5.TabIndex = 23;
             this.upitnik5.TabStop = false;
@@ -336,12 +318,11 @@ namespace Lomey_1
             // 
             // upitnik6
             // 
-            this.upitnik6.BackColor = System.Drawing.Color.LightGreen;
+            this.upitnik6.BackColor = System.Drawing.Color.Transparent;
             this.upitnik6.Image = global::Lomey_1.Properties.Resources.question_mark;
-            this.upitnik6.Location = new System.Drawing.Point(493, 310);
-            this.upitnik6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.upitnik6.Location = new System.Drawing.Point(330, 184);
             this.upitnik6.Name = "upitnik6";
-            this.upitnik6.Size = new System.Drawing.Size(126, 147);
+            this.upitnik6.Size = new System.Drawing.Size(88, 88);
             this.upitnik6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.upitnik6.TabIndex = 24;
             this.upitnik6.TabStop = false;
@@ -350,12 +331,11 @@ namespace Lomey_1
             // 
             // upitnik7
             // 
-            this.upitnik7.BackColor = System.Drawing.Color.LightGreen;
+            this.upitnik7.BackColor = System.Drawing.Color.Transparent;
             this.upitnik7.Image = global::Lomey_1.Properties.Resources.question_mark;
-            this.upitnik7.Location = new System.Drawing.Point(661, 310);
-            this.upitnik7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.upitnik7.Location = new System.Drawing.Point(448, 184);
             this.upitnik7.Name = "upitnik7";
-            this.upitnik7.Size = new System.Drawing.Size(126, 147);
+            this.upitnik7.Size = new System.Drawing.Size(88, 88);
             this.upitnik7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.upitnik7.TabIndex = 25;
             this.upitnik7.TabStop = false;
@@ -364,12 +344,11 @@ namespace Lomey_1
             // 
             // upitnik8
             // 
-            this.upitnik8.BackColor = System.Drawing.Color.LightGreen;
+            this.upitnik8.BackColor = System.Drawing.Color.Transparent;
             this.upitnik8.Image = global::Lomey_1.Properties.Resources.question_mark;
-            this.upitnik8.Location = new System.Drawing.Point(826, 310);
-            this.upitnik8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.upitnik8.Location = new System.Drawing.Point(563, 184);
             this.upitnik8.Name = "upitnik8";
-            this.upitnik8.Size = new System.Drawing.Size(126, 147);
+            this.upitnik8.Size = new System.Drawing.Size(88, 88);
             this.upitnik8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.upitnik8.TabIndex = 26;
             this.upitnik8.TabStop = false;
@@ -378,12 +357,11 @@ namespace Lomey_1
             // 
             // upitnik9
             // 
-            this.upitnik9.BackColor = System.Drawing.Color.LightGreen;
+            this.upitnik9.BackColor = System.Drawing.Color.Transparent;
             this.upitnik9.Image = global::Lomey_1.Properties.Resources.question_mark;
-            this.upitnik9.Location = new System.Drawing.Point(316, 488);
-            this.upitnik9.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.upitnik9.Location = new System.Drawing.Point(206, 291);
             this.upitnik9.Name = "upitnik9";
-            this.upitnik9.Size = new System.Drawing.Size(126, 147);
+            this.upitnik9.Size = new System.Drawing.Size(88, 88);
             this.upitnik9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.upitnik9.TabIndex = 27;
             this.upitnik9.TabStop = false;
@@ -392,12 +370,11 @@ namespace Lomey_1
             // 
             // upitnik10
             // 
-            this.upitnik10.BackColor = System.Drawing.Color.LightGreen;
+            this.upitnik10.BackColor = System.Drawing.Color.Transparent;
             this.upitnik10.Image = global::Lomey_1.Properties.Resources.question_mark;
-            this.upitnik10.Location = new System.Drawing.Point(493, 488);
-            this.upitnik10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.upitnik10.Location = new System.Drawing.Point(330, 291);
             this.upitnik10.Name = "upitnik10";
-            this.upitnik10.Size = new System.Drawing.Size(126, 147);
+            this.upitnik10.Size = new System.Drawing.Size(88, 88);
             this.upitnik10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.upitnik10.TabIndex = 28;
             this.upitnik10.TabStop = false;
@@ -406,12 +383,11 @@ namespace Lomey_1
             // 
             // upitnik11
             // 
-            this.upitnik11.BackColor = System.Drawing.Color.LightGreen;
+            this.upitnik11.BackColor = System.Drawing.Color.Transparent;
             this.upitnik11.Image = global::Lomey_1.Properties.Resources.question_mark;
-            this.upitnik11.Location = new System.Drawing.Point(661, 488);
-            this.upitnik11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.upitnik11.Location = new System.Drawing.Point(448, 291);
             this.upitnik11.Name = "upitnik11";
-            this.upitnik11.Size = new System.Drawing.Size(126, 147);
+            this.upitnik11.Size = new System.Drawing.Size(88, 88);
             this.upitnik11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.upitnik11.TabIndex = 29;
             this.upitnik11.TabStop = false;
@@ -420,12 +396,11 @@ namespace Lomey_1
             // 
             // upitnik12
             // 
-            this.upitnik12.BackColor = System.Drawing.Color.LightGreen;
+            this.upitnik12.BackColor = System.Drawing.Color.Transparent;
             this.upitnik12.Image = global::Lomey_1.Properties.Resources.question_mark;
-            this.upitnik12.Location = new System.Drawing.Point(826, 488);
-            this.upitnik12.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.upitnik12.Location = new System.Drawing.Point(563, 291);
             this.upitnik12.Name = "upitnik12";
-            this.upitnik12.Size = new System.Drawing.Size(126, 147);
+            this.upitnik12.Size = new System.Drawing.Size(88, 88);
             this.upitnik12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.upitnik12.TabIndex = 30;
             this.upitnik12.TabStop = false;
@@ -434,9 +409,9 @@ namespace Lomey_1
             // 
             // Memory3x3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Lomey_1.Properties.Resources.background_2;
+            this.BackgroundImage = global::Lomey_1.Properties.Resources._2823797;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.upitnik12);
             this.Controls.Add(this.upitnik11);
@@ -464,9 +439,8 @@ namespace Lomey_1
             this.Controls.Add(this.lav1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Memory3x3";
-            this.Size = new System.Drawing.Size(1220, 720);
+            this.Size = new System.Drawing.Size(854, 432);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lav1)).EndInit();

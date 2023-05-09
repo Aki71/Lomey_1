@@ -41,5 +41,22 @@ namespace Lomey_1
         {
             Application.Exit();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nazad(object sender, MouseEventArgs e)
+        {
+            Form Main = new Main();
+            Main.Show();
+            this.Hide();
+        }
+
+        private void memory3x31_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

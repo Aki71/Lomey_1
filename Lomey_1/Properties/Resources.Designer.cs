@@ -63,6 +63,16 @@ namespace Lomey_1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2823797 {
+            get {
+                object obj = ResourceManager.GetObject("2823797", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap antelope {
             get {
                 object obj = ResourceManager.GetObject("antelope", resourceCulture);
@@ -172,6 +182,16 @@ namespace Lomey_1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap flowers_thin_ornamental_frame {
+            get {
+                object obj = ResourceManager.GetObject("flowers-thin-ornamental-frame", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap giraffe {
             get {
                 object obj = ResourceManager.GetObject("giraffe", resourceCulture);
@@ -242,9 +262,29 @@ namespace Lomey_1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Loto_logo_locked1 {
+            get {
+                object obj = ResourceManager.GetObject("Loto_logo_locked1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Memory_logo {
             get {
                 object obj = ResourceManager.GetObject("Memory_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Memory_logo_2 {
+            get {
+                object obj = ResourceManager.GetObject("Memory_logo_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

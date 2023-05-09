@@ -52,9 +52,9 @@ namespace Lomey_1
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::Lomey_1.Properties.Resources.Loto_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(155, 171);
+            this.pictureBox1.Location = new System.Drawing.Point(577, 219);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(105, 99);
+            this.pictureBox1.Size = new System.Drawing.Size(149, 147);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -65,9 +65,9 @@ namespace Lomey_1
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::Lomey_1.Properties.Resources.Memory_logo;
-            this.pictureBox2.Location = new System.Drawing.Point(655, 185);
+            this.pictureBox2.Location = new System.Drawing.Point(55, 32);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(131, 119);
+            this.pictureBox2.Size = new System.Drawing.Size(146, 137);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -102,9 +102,9 @@ namespace Lomey_1
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = global::Lomey_1.Properties.Resources.shop;
-            this.pictureBox5.Location = new System.Drawing.Point(490, 120);
+            this.pictureBox5.Location = new System.Drawing.Point(369, 145);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(65, 57);
+            this.pictureBox5.Size = new System.Drawing.Size(90, 74);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
@@ -125,6 +125,7 @@ namespace Lomey_1
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Bauhaus 93", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(726, 17);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 18);
@@ -135,10 +136,10 @@ namespace Lomey_1
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox7.Image = global::Lomey_1.Properties.Resources.Loto_logo_locked;
-            this.pictureBox7.Location = new System.Drawing.Point(155, 171);
+            this.pictureBox7.Image = global::Lomey_1.Properties.Resources.Loto_logo_locked1;
+            this.pictureBox7.Location = new System.Drawing.Point(577, 219);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(105, 99);
+            this.pictureBox7.Size = new System.Drawing.Size(149, 147);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 7;
             this.pictureBox7.TabStop = false;
@@ -148,7 +149,7 @@ namespace Lomey_1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Lomey_1.Properties.Resources.background3;
+            this.BackgroundImage = global::Lomey_1.Properties.Resources._2823797;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(838, 393);
             this.Controls.Add(this.pictureBox7);
@@ -161,6 +162,7 @@ namespace Lomey_1
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Main_FormClosed);
             this.Load += new System.EventHandler(this.Main_Load);
