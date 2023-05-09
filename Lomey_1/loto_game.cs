@@ -23,6 +23,7 @@ namespace Lomey_1
             for (int i = 0; i < 7; i++)
             {
                 spisak_dobitnih_brojeva.Write(dobitni_brojevi[i] + " ");
+                
                 if (i == 6)
                 {
                     spisak_dobitnih_brojeva.WriteLine();
