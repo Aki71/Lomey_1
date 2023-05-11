@@ -21,8 +21,106 @@ namespace Lomey_1
         string pomstring = "";
         string pomupitnik = "";
 
+        void RandomLoading()
+        {
+            foreach (Control n in Controls)
+                if (n is PictureBox)
+                    if (Convert.ToString((n as PictureBox).Tag) == "u")
+                    {
+                        (n as PictureBox).Show();
+                        (n as PictureBox).Enabled = true;
+                    }
+
+            Random r = new Random();
+            int[] brojevi = new int[17];
+            for (int i = 0; i < 16; i++) brojevi[i] = i + 1;
+            int[,] matrica = new int[4, 4];
+            int indeks = 16;
+            for (int i = 0; i < 4; i++)
+            {
+                for (int j = 0; j < 4; j++)
+                {
+                    while (brojevi[indeks] == 0)
+                    {
+                        indeks = r.Next(0, 16);
+                        matrica[i, j] = brojevi[indeks];
+                    }
+                    brojevi[indeks] = 0;
+                }
+            }
+
+            string rec = "broj" + Convert.ToString(matrica[0, 0]);
+            Control ctn = this.Controls[rec];
+            ctn.Location = new Point(210, 18);
+
+            rec = "broj" + Convert.ToString(matrica[0, 1]);
+            ctn = this.Controls[rec];
+            ctn.Location = new Point(334, 18);
+
+            rec = "broj" + Convert.ToString(matrica[0, 2]);
+            ctn = this.Controls[rec];
+            ctn.Location = new Point(452, 18);
+
+            rec = "broj" + Convert.ToString(matrica[0, 3]);
+            ctn = this.Controls[rec];
+            ctn.Location = new Point(567, 18);
+
+            rec = "broj" + Convert.ToString(matrica[1, 0]);
+            ctn = this.Controls[rec];
+            ctn.Location = new Point(210, 124);
+
+            rec = "broj" + Convert.ToString(matrica[1, 1]);
+            ctn = this.Controls[rec];
+            ctn.Location = new Point(334, 124);
+
+            rec = "broj" + Convert.ToString(matrica[1, 2]);
+            ctn = this.Controls[rec];
+            ctn.Location = new Point(452, 124);
+
+            rec = "broj" + Convert.ToString(matrica[1, 3]);
+            ctn = this.Controls[rec];
+            ctn.Location = new Point(567, 124);
+
+            rec = "broj" + Convert.ToString(matrica[2, 0]);
+            ctn = this.Controls[rec];
+            ctn.Location = new Point(210, 231);
+
+            rec = "broj" + Convert.ToString(matrica[2, 1]);
+            ctn = this.Controls[rec];
+            ctn.Location = new Point(334, 231);
+
+            rec = "broj" + Convert.ToString(matrica[2, 2]);
+            ctn = this.Controls[rec];
+            ctn.Location = new Point(452, 231);
+
+            rec = "broj" + Convert.ToString(matrica[2, 3]);
+            ctn = this.Controls[rec];
+            ctn.Location = new Point(567, 231);
+            
+            rec = "broj" + Convert.ToString(matrica[3, 0]);
+            ctn = this.Controls[rec];
+            ctn.Location = new Point(210, 343);
+            
+            rec = "broj" + Convert.ToString(matrica[3, 1]);
+            ctn = this.Controls[rec];
+            ctn.Location = new Point(334, 343);
+            
+            rec = "broj" + Convert.ToString(matrica[3, 2]);
+            ctn = this.Controls[rec];
+            ctn.Location = new Point(452, 343);
+            
+            rec = "broj" + Convert.ToString(matrica[3, 3]);
+            ctn = this.Controls[rec];
+            ctn.Location = new Point(567, 343);
+        }
+
         private void klik(object sender, MouseEventArgs e)
         {
+            if (!upitnik1.Visible && !upitnik2.Visible && !upitnik3.Visible && !upitnik4.Visible && !upitnik5.Visible && !upitnik6.Visible && !upitnik7.Visible && !upitnik8.Visible && !upitnik9.Visible && !upitnik10.Visible && !upitnik11.Visible && !upitnik12.Visible && !upitnik13.Visible && !upitnik14.Visible && !upitnik15.Visible && !upitnik16.Visible)
+            {
+
+            }
+
             if (pombool == true)
             {
                 foreach (Control n in Controls)
@@ -93,31 +191,13 @@ namespace Lomey_1
 
         private void nazad(object sender, MouseEventArgs e)
         {
-            foreach (Control n in Controls)
-                if (n is PictureBox)
-                    if (Convert.ToString((n as PictureBox).Tag) == "u")
-                    {
-                        (n as PictureBox).Show();
-                        (n as PictureBox).Enabled = true;
-                    }
+            RandomLoading();
             this.Hide();
         }
 
-        private void pictureBox4_MouseClick(object sender, MouseEventArgs e)
+        private void Memory4x4_Load(object sender, EventArgs e)
         {
-            foreach (Control n in Controls)
-                if (n is PictureBox)
-                    if (Convert.ToString((n as PictureBox).Tag) == "u")
-                    {
-                        (n as PictureBox).Show();
-                        (n as PictureBox).Enabled = true;
-                    }
-            this.Hide();
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-
+            RandomLoading();
         }
     }
 }

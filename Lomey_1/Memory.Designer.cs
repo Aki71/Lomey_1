@@ -116,6 +116,7 @@ namespace Lomey_1
             this.memory3x31.Name = "memory3x31";
             this.memory3x31.Size = new System.Drawing.Size(854, 432);
             this.memory3x31.TabIndex = 6;
+            this.memory3x31.Visible = false;
             // 
             // memory4x41
             // 
@@ -125,6 +126,7 @@ namespace Lomey_1
             this.memory4x41.Name = "memory4x41";
             this.memory4x41.Size = new System.Drawing.Size(854, 432);
             this.memory4x41.TabIndex = 7;
+            this.memory4x41.Visible = false;
             // 
             // memory5x51
             // 
@@ -134,6 +136,7 @@ namespace Lomey_1
             this.memory5x51.Name = "memory5x51";
             this.memory5x51.Size = new System.Drawing.Size(854, 432);
             this.memory5x51.TabIndex = 8;
+            this.memory5x51.Visible = false;
             // 
             // Memory
             // 
