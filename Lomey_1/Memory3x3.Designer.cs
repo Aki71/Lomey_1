@@ -441,6 +441,7 @@ namespace Lomey_1
             this.Controls.Add(this.pictureBox4);
             this.Name = "Memory3x3";
             this.Size = new System.Drawing.Size(854, 432);
+            this.Load += new System.EventHandler(this.Memory3x3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lav1)).EndInit();

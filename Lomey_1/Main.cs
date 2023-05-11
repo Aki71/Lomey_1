@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using System.IO;
 
 namespace Lomey_1
 {
@@ -20,7 +21,16 @@ namespace Lomey_1
         SoundPlayer background_music = new SoundPlayer();
         private void Main_Load(object sender, EventArgs e)
         {
-            
+            StreamReader kupio = new StreamReader("Kupio.txt");
+            string otkljucano = kupio.ReadLine();
+            if(otkljucano == "da")
+            {
+                pictureBox7.Visible = false;
+                int a = Convert.ToInt32(label1.Text);
+                a = a - 100;
+                label1.Text = Convert.ToString(a);
+            }
+            kupio.Close();
         }
 
         private void Main_FormClosed(object sender, FormClosedEventArgs e)
@@ -34,12 +44,17 @@ namespace Lomey_1
             loto_game.Show();
             this.Hide();
         }
-
+        bool otkljucano = false;
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             int a = Convert.ToInt32(label1.Text);
             if (a >= 100)
             {
+                File.WriteAllText("Kupio.txt", "");
+                StreamWriter kupio = new StreamWriter("Kupio.txt", true);
+                kupio.Write("da");
+                kupio.Close();
+                otkljucano = true;
                 pictureBox7.Hide();
                 a = a - 100;
                 label1.Text = Convert.ToString(a);

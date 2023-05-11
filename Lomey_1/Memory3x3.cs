@@ -112,5 +112,10 @@ namespace Lomey_1
         {
 
         }
+
+        private void Memory3x3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
