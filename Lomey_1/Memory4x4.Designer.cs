@@ -110,7 +110,7 @@ namespace Lomey_1
             this.upitnik12.TabIndex = 56;
             this.upitnik12.TabStop = false;
             this.upitnik12.Tag = "u";
-            this.upitnik12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.u12);
+            this.upitnik12.MouseClick += new System.Windows.Forms.MouseEventHandler(this.klik);
             // 
             // upitnik11
             // 
@@ -123,7 +123,7 @@ namespace Lomey_1
             this.upitnik11.TabIndex = 55;
             this.upitnik11.TabStop = false;
             this.upitnik11.Tag = "u";
-            this.upitnik11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.u11);
+            this.upitnik11.MouseClick += new System.Windows.Forms.MouseEventHandler(this.klik);
             // 
             // upitnik10
             // 
@@ -136,7 +136,7 @@ namespace Lomey_1
             this.upitnik10.TabIndex = 54;
             this.upitnik10.TabStop = false;
             this.upitnik10.Tag = "u";
-            this.upitnik10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.u10);
+            this.upitnik10.MouseClick += new System.Windows.Forms.MouseEventHandler(this.klik);
             // 
             // upitnik9
             // 
@@ -149,7 +149,7 @@ namespace Lomey_1
             this.upitnik9.TabIndex = 53;
             this.upitnik9.TabStop = false;
             this.upitnik9.Tag = "u";
-            this.upitnik9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.u9);
+            this.upitnik9.MouseClick += new System.Windows.Forms.MouseEventHandler(this.klik);
             // 
             // upitnik8
             // 
@@ -162,7 +162,7 @@ namespace Lomey_1
             this.upitnik8.TabIndex = 52;
             this.upitnik8.TabStop = false;
             this.upitnik8.Tag = "u";
-            this.upitnik8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.u8);
+            this.upitnik8.MouseClick += new System.Windows.Forms.MouseEventHandler(this.klik);
             // 
             // upitnik7
             // 
@@ -175,7 +175,7 @@ namespace Lomey_1
             this.upitnik7.TabIndex = 51;
             this.upitnik7.TabStop = false;
             this.upitnik7.Tag = "u";
-            this.upitnik7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.u7);
+            this.upitnik7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.klik);
             // 
             // upitnik6
             // 
@@ -188,7 +188,7 @@ namespace Lomey_1
             this.upitnik6.TabIndex = 50;
             this.upitnik6.TabStop = false;
             this.upitnik6.Tag = "u";
-            this.upitnik6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.u6);
+            this.upitnik6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.klik);
             // 
             // upitnik5
             // 
@@ -201,7 +201,7 @@ namespace Lomey_1
             this.upitnik5.TabIndex = 49;
             this.upitnik5.TabStop = false;
             this.upitnik5.Tag = "u";
-            this.upitnik5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.u5);
+            this.upitnik5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.klik);
             // 
             // upitnik4
             // 
@@ -214,7 +214,7 @@ namespace Lomey_1
             this.upitnik4.TabIndex = 48;
             this.upitnik4.TabStop = false;
             this.upitnik4.Tag = "u";
-            this.upitnik4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.u4);
+            this.upitnik4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.klik);
             // 
             // upitnik2
             // 
@@ -227,7 +227,7 @@ namespace Lomey_1
             this.upitnik2.TabIndex = 47;
             this.upitnik2.TabStop = false;
             this.upitnik2.Tag = "u";
-            this.upitnik2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.u2);
+            this.upitnik2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.klik);
             // 
             // upitnik3
             // 
@@ -240,7 +240,7 @@ namespace Lomey_1
             this.upitnik3.TabIndex = 46;
             this.upitnik3.TabStop = false;
             this.upitnik3.Tag = "u";
-            this.upitnik3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.u3);
+            this.upitnik3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.klik);
             // 
             // upitnik1
             // 
@@ -253,7 +253,7 @@ namespace Lomey_1
             this.upitnik1.TabIndex = 45;
             this.upitnik1.TabStop = false;
             this.upitnik1.Tag = "u";
-            this.upitnik1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.u1);
+            this.upitnik1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.klik);
             // 
             // rudolf2
             // 
@@ -434,7 +434,7 @@ namespace Lomey_1
             this.upitnik16.TabIndex = 64;
             this.upitnik16.TabStop = false;
             this.upitnik16.Tag = "u";
-            this.upitnik16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.u16);
+            this.upitnik16.MouseClick += new System.Windows.Forms.MouseEventHandler(this.klik);
             // 
             // upitnik15
             // 
@@ -447,7 +447,7 @@ namespace Lomey_1
             this.upitnik15.TabIndex = 63;
             this.upitnik15.TabStop = false;
             this.upitnik15.Tag = "u";
-            this.upitnik15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.u15);
+            this.upitnik15.MouseClick += new System.Windows.Forms.MouseEventHandler(this.klik);
             // 
             // upitnik14
             // 
@@ -460,7 +460,7 @@ namespace Lomey_1
             this.upitnik14.TabIndex = 62;
             this.upitnik14.TabStop = false;
             this.upitnik14.Tag = "u";
-            this.upitnik14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.u14);
+            this.upitnik14.MouseClick += new System.Windows.Forms.MouseEventHandler(this.klik);
             // 
             // upitnik13
             // 
@@ -473,7 +473,7 @@ namespace Lomey_1
             this.upitnik13.TabIndex = 61;
             this.upitnik13.TabStop = false;
             this.upitnik13.Tag = "u";
-            this.upitnik13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.u13);
+            this.upitnik13.MouseClick += new System.Windows.Forms.MouseEventHandler(this.klik);
             // 
             // pictureBox7
             // 
