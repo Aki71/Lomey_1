@@ -69,8 +69,12 @@ namespace Lomey_1
         private void button1_Click(object sender, EventArgs e)
         {
             Random brojevi = new Random();
-
-            for(int i = 0; i< 7; i++)
+            novac = Convert.ToInt32(textBox8.Text);
+            StreamReader novac_potrosen = new StreamReader("coin.txt");
+            int b = Convert.ToInt32(novac_potrosen.ReadLine()) - novac;
+            novac_potrosen.Close();
+            File.WriteAllText("coin.txt", Convert.ToString(b));
+            for (int i = 0; i< 7; i++)
             {
                 dobitni_brojevi[i] = (brojevi.Next(1,39));
                 
@@ -123,6 +127,7 @@ namespace Lomey_1
         int broj5 = 0;
         int broj6 = 0;
         int broj7 = 0;
+        int novac = 0;
         
         private void button2_Click(object sender, EventArgs e)
         {
@@ -132,13 +137,19 @@ namespace Lomey_1
             }
             else
             {
-                int broj1 = Convert.ToInt32(textBox1.Text);
-                int broj2 = Convert.ToInt32(textBox2.Text);
-                int broj3 = Convert.ToInt32(textBox3.Text);
-                int broj4 = Convert.ToInt32(textBox4.Text);
-                int broj5 = Convert.ToInt32(textBox5.Text);
-                int broj6 = Convert.ToInt32(textBox6.Text);
-                int broj7 = Convert.ToInt32(textBox7.Text);
+                button1.Enabled = true;
+                broj1 = Convert.ToInt32(textBox1.Text);
+                broj2 = Convert.ToInt32(textBox2.Text);
+                broj3 = Convert.ToInt32(textBox3.Text);
+                broj4 = Convert.ToInt32(textBox4.Text);
+                broj5 = Convert.ToInt32(textBox5.Text);
+                broj6 = Convert.ToInt32(textBox6.Text);
+                broj7 = Convert.ToInt32(textBox7.Text);
+                novac = Convert.ToInt32(textBox8.Text);
+                StreamReader novac_potrosen = new StreamReader("coin.txt");
+                int b = Convert.ToInt32(novac_potrosen.ReadLine()) - novac;
+                novac_potrosen.Close();
+                File.WriteAllText("coin.txt", Convert.ToString(b));
             }
         }
 
@@ -214,6 +225,11 @@ namespace Lomey_1
                             if(tacan_1 == broj1 || tacan_1 == broj2 || tacan_1 == broj3 || tacan_1 == broj4 || tacan_1 == broj5 || tacan_1 == broj6 || tacan_1 == broj7 && tacan_2 == broj1 || tacan_2 == broj2 || tacan_2 == broj3 || tacan_2 == broj4 || tacan_2 == broj5 || tacan_2 == broj6 || tacan_2 == broj7 && tacan_3 == broj1 || tacan_3 == broj2 || tacan_3 == broj3 || tacan_3 == broj4 || tacan_3 == broj5 || tacan_3 == broj6 || tacan_3 == broj7 && tacan_4 == broj1 || tacan_4 == broj2 || tacan_4 == broj3 || tacan_4 == broj4 || tacan_4 == broj5 || tacan_4 == broj6 || tacan_4 == broj7 && tacan_5 == broj1 || tacan_5 == broj2 || tacan_5 == broj3 || tacan_5 == broj4 || tacan_5 == broj5 || tacan_5 == broj6 || tacan_5 == broj7 && tacan_6 == broj1 || tacan_6 == broj2 || tacan_6 == broj3 || tacan_6 == broj4 || tacan_6 == broj5 || tacan_6 == broj6 || tacan_6 == broj7 && tacan_7 == broj1 || tacan_7 == broj2 || tacan_7 == broj3 || tacan_7 == broj4 || tacan_7 == broj5 || tacan_7 == broj6 || tacan_7 == broj7)
                             {
                                 tacno = true;
+                                StreamReader dobit = new StreamReader("coin.txt");
+                                int c = Convert.ToInt32(dobit.ReadLine());
+                                int plus = c + 1000000;
+                                dobit.Close();
+                                File.WriteAllText("coin.txt", Convert.ToString(plus));
                                 MessageBox.Show("Pobeda!!!");
                             }
                         }
@@ -236,74 +252,6 @@ namespace Lomey_1
             ispis.Close();
         }
 
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

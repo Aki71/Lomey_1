@@ -14,9 +14,12 @@ namespace Lomey_1
 {
     public partial class Main : Form
     {
+
+         
         public Main()
         {
             InitializeComponent();
+             
         }
         SoundPlayer background_music = new SoundPlayer();
         private void Main_Load(object sender, EventArgs e)
@@ -31,6 +34,9 @@ namespace Lomey_1
                 label1.Text = Convert.ToString(a);
             }
             kupio.Close();
+            StreamReader coin = new StreamReader("coin.txt");
+            label1.Text = Convert.ToString(coin.ReadLine());
+            coin.Close();
         }
 
         private void Main_FormClosed(object sender, FormClosedEventArgs e)

@@ -29,6 +29,7 @@ namespace Lomey_1
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.upitnik16 = new System.Windows.Forms.PictureBox();
@@ -71,6 +72,7 @@ namespace Lomey_1
             this.broj19 = new System.Windows.Forms.PictureBox();
             this.broj18 = new System.Windows.Forms.PictureBox();
             this.broj17 = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.upitnik16)).BeginInit();
@@ -638,6 +640,11 @@ namespace Lomey_1
             this.broj17.TabStop = false;
             this.broj17.Tag = "pas";
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Memory5x5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -779,5 +786,6 @@ namespace Lomey_1
         private System.Windows.Forms.PictureBox broj19;
         private System.Windows.Forms.PictureBox broj18;
         private System.Windows.Forms.PictureBox broj17;
+        private System.Windows.Forms.Timer timer1;
     }
 }

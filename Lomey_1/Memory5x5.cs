@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Lomey_1
 {
@@ -214,6 +215,29 @@ namespace Lomey_1
         private void Memory5x5_Load(object sender, EventArgs e)
         {
             RandomLoading();
+            timer1.Enabled = true;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (upitnik1.Visible == false && upitnik2.Visible == false && upitnik3.Visible == false && upitnik4.Visible == false && upitnik5.Visible == false && upitnik6.Visible == false && upitnik7.Visible == false && upitnik8.Visible == false && upitnik9.Visible == false && upitnik10.Visible == false && upitnik11.Visible == false && upitnik12.Visible == false && upitnik13.Visible == false && upitnik14.Visible == false && upitnik15.Visible == false && upitnik16.Visible == false)
+            {
+                timer1.Enabled = false;
+                StreamReader coin = new StreamReader("coin.txt");
+                int b = Convert.ToInt32(coin.ReadLine());
+                int a = b + 30;
+                coin.Close();
+                File.WriteAllText("coin.txt", Convert.ToString(a));
+                string message = "Congratulations!" +
+                    "  Do you want to close this window?";
+                string title = "Congratulations";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                DialogResult result = MessageBox.Show(message, title, buttons);
+                if (result == DialogResult.Yes)
+                {
+                    this.Hide();
+                }
+            }
         }
     }
 }

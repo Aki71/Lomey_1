@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Lomey_1
 {
@@ -100,11 +101,6 @@ namespace Lomey_1
 
         private void klik(object sender, MouseEventArgs e)
         {
-            if (!upitnik1.Visible && !upitnik2.Visible && !upitnik3.Visible && !upitnik4.Visible && !upitnik5.Visible && !upitnik6.Visible && !upitnik7.Visible && !upitnik8.Visible && !upitnik9.Visible && !upitnik10.Visible && !upitnik11.Visible && !upitnik12.Visible)
-            {
-
-            }
-
             if (pombool == true)
             {
                 foreach (Control n in Controls)
@@ -182,6 +178,30 @@ namespace Lomey_1
         private void Memory3x3_Load(object sender, EventArgs e)
         {
             RandomLoading();
+            timer1.Enabled = true;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (upitnik1.Visible == false && upitnik2.Visible == false && upitnik3.Visible == false && upitnik4.Visible == false && upitnik5.Visible == false && upitnik6.Visible == false && upitnik7.Visible == false && upitnik8.Visible == false && upitnik9.Visible == false && upitnik10.Visible == false && upitnik11.Visible == false && upitnik12.Visible == false)
+            {
+                timer1.Enabled = false;
+                StreamReader coin = new StreamReader("coin.txt");
+                int b = Convert.ToInt32(coin.ReadLine());
+                int a = b + 10;
+                coin.Close();
+                File.WriteAllText("coin.txt", Convert.ToString(a));
+                string message = "Congratulations!" +
+                    "  Do you want to close this window?";
+                string title = "Congratulations";
+                MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+                DialogResult result = MessageBox.Show(message,title, buttons);
+                if (result == DialogResult.Yes)
+                {
+                    this.Hide();
+                }
+                
+            }
         }
     }
 }
