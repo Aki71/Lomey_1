@@ -37,13 +37,13 @@ namespace Lomey_1
             this.button2 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.rndbr0 = new System.Windows.Forms.Label();
+            this.rndbr1 = new System.Windows.Forms.Label();
+            this.rndbr2 = new System.Windows.Forms.Label();
+            this.rndbr3 = new System.Windows.Forms.Label();
+            this.rndbr4 = new System.Windows.Forms.Label();
+            this.rndbr5 = new System.Windows.Forms.Label();
+            this.rndbr6 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -102,7 +102,8 @@ namespace Lomey_1
             this.textBox1.Location = new System.Drawing.Point(18, 66);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(24, 35);
-            this.textBox1.TabIndex = 5;
+            this.textBox1.TabIndex = 0;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
@@ -157,96 +158,98 @@ namespace Lomey_1
             this.label1.TabIndex = 16;
             this.label1.Text = "WINNING NUMBERS";
             // 
-            // label2
+            // rndbr0
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(46, 267);
-            this.label2.Margin = new System.Windows.Forms.Padding(0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 54);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "99";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rndbr0.AutoSize = true;
+            this.rndbr0.BackColor = System.Drawing.Color.Transparent;
+            this.rndbr0.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.rndbr0.Location = new System.Drawing.Point(46, 267);
+            this.rndbr0.Margin = new System.Windows.Forms.Padding(0);
+            this.rndbr0.Name = "rndbr0";
+            this.rndbr0.Size = new System.Drawing.Size(69, 54);
+            this.rndbr0.TabIndex = 17;
+            this.rndbr0.Text = "99";
+            this.rndbr0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rndbr0.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label3
+            // rndbr1
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(156, 267);
-            this.label3.Margin = new System.Windows.Forms.Padding(0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 54);
-            this.label3.TabIndex = 18;
-            this.label3.Text = "99";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rndbr1.AutoSize = true;
+            this.rndbr1.BackColor = System.Drawing.Color.Transparent;
+            this.rndbr1.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.rndbr1.Location = new System.Drawing.Point(156, 267);
+            this.rndbr1.Margin = new System.Windows.Forms.Padding(0);
+            this.rndbr1.Name = "rndbr1";
+            this.rndbr1.Size = new System.Drawing.Size(69, 54);
+            this.rndbr1.TabIndex = 18;
+            this.rndbr1.Text = "99";
+            this.rndbr1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label4
+            // rndbr2
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(276, 267);
-            this.label4.Margin = new System.Windows.Forms.Padding(0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 54);
-            this.label4.TabIndex = 19;
-            this.label4.Text = "99";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rndbr2.AutoSize = true;
+            this.rndbr2.BackColor = System.Drawing.Color.Transparent;
+            this.rndbr2.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.rndbr2.Location = new System.Drawing.Point(276, 267);
+            this.rndbr2.Margin = new System.Windows.Forms.Padding(0);
+            this.rndbr2.Name = "rndbr2";
+            this.rndbr2.Size = new System.Drawing.Size(69, 54);
+            this.rndbr2.TabIndex = 19;
+            this.rndbr2.Text = "99";
+            this.rndbr2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label5
+            // rndbr3
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(389, 267);
-            this.label5.Margin = new System.Windows.Forms.Padding(0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 54);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "99";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rndbr3.AutoSize = true;
+            this.rndbr3.BackColor = System.Drawing.Color.Transparent;
+            this.rndbr3.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.rndbr3.Location = new System.Drawing.Point(389, 267);
+            this.rndbr3.Margin = new System.Windows.Forms.Padding(0);
+            this.rndbr3.Name = "rndbr3";
+            this.rndbr3.Size = new System.Drawing.Size(69, 54);
+            this.rndbr3.TabIndex = 20;
+            this.rndbr3.Text = "99";
+            this.rndbr3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label6
+            // rndbr4
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(499, 267);
-            this.label6.Margin = new System.Windows.Forms.Padding(0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 54);
-            this.label6.TabIndex = 21;
-            this.label6.Text = "99";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rndbr4.AutoSize = true;
+            this.rndbr4.BackColor = System.Drawing.Color.Transparent;
+            this.rndbr4.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.rndbr4.Location = new System.Drawing.Point(499, 267);
+            this.rndbr4.Margin = new System.Windows.Forms.Padding(0);
+            this.rndbr4.Name = "rndbr4";
+            this.rndbr4.Size = new System.Drawing.Size(69, 54);
+            this.rndbr4.TabIndex = 21;
+            this.rndbr4.Text = "99";
+            this.rndbr4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rndbr4.Click += new System.EventHandler(this.label6_Click);
             // 
-            // label7
+            // rndbr5
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(614, 267);
-            this.label7.Margin = new System.Windows.Forms.Padding(0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(69, 54);
-            this.label7.TabIndex = 22;
-            this.label7.Text = "99";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rndbr5.AutoSize = true;
+            this.rndbr5.BackColor = System.Drawing.Color.Transparent;
+            this.rndbr5.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.rndbr5.Location = new System.Drawing.Point(614, 267);
+            this.rndbr5.Margin = new System.Windows.Forms.Padding(0);
+            this.rndbr5.Name = "rndbr5";
+            this.rndbr5.Size = new System.Drawing.Size(69, 54);
+            this.rndbr5.TabIndex = 22;
+            this.rndbr5.Text = "99";
+            this.rndbr5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label8
+            // rndbr6
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(723, 267);
-            this.label8.Margin = new System.Windows.Forms.Padding(0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(69, 54);
-            this.label8.TabIndex = 23;
-            this.label8.Text = "99";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.rndbr6.AutoSize = true;
+            this.rndbr6.BackColor = System.Drawing.Color.Transparent;
+            this.rndbr6.Font = new System.Drawing.Font("Segoe UI", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.rndbr6.Location = new System.Drawing.Point(723, 267);
+            this.rndbr6.Margin = new System.Windows.Forms.Padding(0);
+            this.rndbr6.Name = "rndbr6";
+            this.rndbr6.Size = new System.Drawing.Size(69, 54);
+            this.rndbr6.TabIndex = 23;
+            this.rndbr6.Text = "99";
+            this.rndbr6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox2
             // 
@@ -254,7 +257,7 @@ namespace Lomey_1
             this.textBox2.Location = new System.Drawing.Point(46, 66);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(24, 35);
-            this.textBox2.TabIndex = 24;
+            this.textBox2.TabIndex = 1;
             // 
             // textBox3
             // 
@@ -262,7 +265,7 @@ namespace Lomey_1
             this.textBox3.Location = new System.Drawing.Point(74, 66);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(24, 35);
-            this.textBox3.TabIndex = 25;
+            this.textBox3.TabIndex = 2;
             // 
             // textBox4
             // 
@@ -270,7 +273,7 @@ namespace Lomey_1
             this.textBox4.Location = new System.Drawing.Point(102, 66);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(24, 35);
-            this.textBox4.TabIndex = 26;
+            this.textBox4.TabIndex = 3;
             // 
             // textBox5
             // 
@@ -278,7 +281,7 @@ namespace Lomey_1
             this.textBox5.Location = new System.Drawing.Point(130, 66);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(24, 35);
-            this.textBox5.TabIndex = 27;
+            this.textBox5.TabIndex = 4;
             // 
             // textBox6
             // 
@@ -286,7 +289,7 @@ namespace Lomey_1
             this.textBox6.Location = new System.Drawing.Point(158, 66);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(24, 35);
-            this.textBox6.TabIndex = 28;
+            this.textBox6.TabIndex = 5;
             // 
             // textBox7
             // 
@@ -294,7 +297,7 @@ namespace Lomey_1
             this.textBox7.Location = new System.Drawing.Point(186, 66);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(24, 35);
-            this.textBox7.TabIndex = 29;
+            this.textBox7.TabIndex = 6;
             // 
             // timer1
             // 
@@ -385,7 +388,7 @@ namespace Lomey_1
             this.textBox8.Location = new System.Drawing.Point(18, 107);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(164, 35);
-            this.textBox8.TabIndex = 37;
+            this.textBox8.TabIndex = 7;
             // 
             // pictureBox10
             // 
@@ -426,13 +429,13 @@ namespace Lomey_1
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.rndbr6);
+            this.Controls.Add(this.rndbr5);
+            this.Controls.Add(this.rndbr4);
+            this.Controls.Add(this.rndbr3);
+            this.Controls.Add(this.rndbr2);
+            this.Controls.Add(this.rndbr1);
+            this.Controls.Add(this.rndbr0);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button2);
@@ -477,13 +480,13 @@ namespace Lomey_1
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label rndbr0;
+        private System.Windows.Forms.Label rndbr1;
+        private System.Windows.Forms.Label rndbr2;
+        private System.Windows.Forms.Label rndbr3;
+        private System.Windows.Forms.Label rndbr4;
+        private System.Windows.Forms.Label rndbr5;
+        private System.Windows.Forms.Label rndbr6;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
